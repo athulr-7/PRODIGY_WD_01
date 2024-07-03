@@ -1,0 +1,48 @@
+nav{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  width: 100;
+  background-color: #ae7a7a;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  transition: background-color 0.5s ease;
+
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav li {
+  margin-right: 2rem;
+
+}
+
+nav a {
+  color:#fff ;
+  text-align: right;
+  text-decoration: none;
+  transition: color 0.5s ease;
+
+}
+
+nav a:hover{
+  color: #821a1a;
+
+
+}
+
+nav.scrolled{
+  background-color: rgb(222, 116, 11);
+}
+
+nav.scrolled a{
+  color: #fff;
+}
